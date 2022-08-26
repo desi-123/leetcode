@@ -8,3 +8,11 @@ def longestConsecutive(nums):
                 ln += 1
             longest = max(ln, longest)
     return longest
+
+
+if __name__ == '__main__':
+    printLength = longestConsecutive([2, 3, 1, 10, 9, 30, 32, 31, 33, 34, 35])
+
+    print(printLength)
+
+
