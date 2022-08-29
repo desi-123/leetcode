@@ -1,6 +1,5 @@
 def searchMatrix(matrix, target):
     start, end = 0, len(matrix) - 1
-
     while start <= end:
         for m1 in matrix:
             left, right = 0, len(m1) - 1
